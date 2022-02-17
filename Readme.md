@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
-* Студент: [Анфиса](https://up.htmlacademy.ru/javascript/25/user/1097385).
-* Наставник: `Неизвестно`.
+- Студент: [Анфиса](https://up.htmlacademy.ru/javascript/25/user/1097385).
+- Наставник: [Ксения Гарпушина](https://htmlacademy.ru/profile/id1883933).
 
 ---
 
