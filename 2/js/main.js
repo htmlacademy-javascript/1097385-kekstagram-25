@@ -5,17 +5,10 @@ function getRandomInt(max) {
 
 console.log(getRandomInt(3));
 // взяла на сайте:https://www.cyberforum.ru/javascript/thread1165903.html
-var str = prompt("Введите строоку ", "");
-var maxlegth = +prompt("Введите максимальную длинну ", "");
-if (str == undefined || str == "") {
-  alert("Строка не введена");
-} else {
-  truncate();
-}
-function truncate() {
-  if (длина_строки >= заданной_длины) {
-    // усекаем до нужной длины, добавляем троеточие и возвращаем
-  } else {
-    // возвращаем строку "как есть"
+function checkStringLength(stringToCheck, maxLength) {
+  if (stringToCheck.length <= maxLength) {
+    return true;
   }
+  return false;
 }
+console.log(checkStringLength("тарелка", 8));
