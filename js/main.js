@@ -3,7 +3,6 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
-console.log(getRandomInt(3));
 // взяла на сайте:https://www.cyberforum.ru/javascript/thread1165903.html
 function checkStringLength(stringToCheck, maxLength) {
   if (stringToCheck.length <= maxLength) {
@@ -11,4 +10,3 @@ function checkStringLength(stringToCheck, maxLength) {
   }
   return false;
 }
-console.log(checkStringLength("тарелка", 8));
