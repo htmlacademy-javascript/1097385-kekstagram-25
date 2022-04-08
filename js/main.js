@@ -39,21 +39,6 @@ const COMMENTS = [
   "Круто",
   "Отлично",
 ];
-/*
-{
-  id:1,
-  url: photos/1.jpg,
-  description: "описание картинки",
-  likes: 100,
-  comments:[{
-  id: 135,
-  avatar: 'img/avatar-6.svg',
-  message: 'В целом всё неплохо. Но не всё.',
-  name: 'Артём',
-}],
-
-}
-*/
 
 function generatePhotos() {
   const photos = [];
