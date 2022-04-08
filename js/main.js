@@ -61,7 +61,7 @@ function generatePhotos() {
   }
   return photos;
 }
-generatePhotos()
+generatePhotos();
 
 function checkStringLength(stringToCheck, maxLength) {
   if (stringToCheck.length <= maxLength) {
